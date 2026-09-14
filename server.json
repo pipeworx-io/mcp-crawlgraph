@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/crawlgraph",
+  "title": "Crawlgraph",
+  "description": "CrawlGraph MCP — backlink intelligence on the public Common Crawl webgraph",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/crawlgraph",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-crawlgraph",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/crawlgraph/mcp"
+    }
+  ]
+}
