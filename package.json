@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-crawlgraph",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "CrawlGraph MCP — backlink intelligence on the public Common Crawl webgraph",
   "type": "module",
   "main": "src/index.ts",
@@ -24,5 +24,9 @@
   "devDependencies": {
     "typescript": "^5.9.3",
     "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-cc9e76f3ab43a5617ed6648a27ff285de7efff7b19165922a6114883c537f0f1",
+    "sourceCommit": "60f04b68c347e970c6be94a53439d1364061fc06"
   }
 }
